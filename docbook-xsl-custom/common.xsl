@@ -17,13 +17,13 @@
 
   <!-- trion theme -->
   <xsl:param name="text.color">#000000</xsl:param>
-  <xsl:param name="link.color">#2981cc</xsl:param>
+  <xsl:param name="link.color">#333333</xsl:param>
   <xsl:param name="border.color">#717778</xsl:param>
   <xsl:param name="header.font-weight">normal</xsl:param>
-  <xsl:param name="title.color">#80cc28</xsl:param>
+  <xsl:param name="title.color">#000000</xsl:param>
   <xsl:param name="chapter.title.color" select="$title.color"/>
   <xsl:param name="section.title.color" select="$title.color"/>
-  <xsl:param name="caption.color">#80cc28</xsl:param>
+  <xsl:param name="caption.color">#000000</xsl:param>
   <xsl:param name="code.color" select="$text.color"/>
   <xsl:param name="code.font-weight">normal</xsl:param>
   <xsl:param name="code.background-color">#e6e6e6</xsl:param>
